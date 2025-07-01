@@ -9,7 +9,7 @@ const HeroSlider = () => {
 
   const slides = [
     {
-      image: "public/images/picture1.jpg",
+      image: "/images/Picture1.jpg",
       title: "Building the Future of Nepal",
       subtitle: "Expertise in Infrastructure, Planning & Design"
     },
