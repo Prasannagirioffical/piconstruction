@@ -11,65 +11,65 @@ import HeroSlider from '@/components/HeroSlider';
 const Index = () => {
   const featuredProjects = [
     {
-      title: "Kathmandu Ring Road Expansion",
+      title: "CONCEPTUAL MASTER PLAN OF NAST",
       type: "Infrastructure",
-      year: "2023",
-      image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600&h=400&fit=crop",
-      description: "Major infrastructure project to expand and modernize the ring road system"
+      year: "2019",
+      image: "/images/n1.jpg",
+      description: "NAST (National Academy of Science and Technology) in Lalitpur, Nepal. This project involved the development of a comprehensive master plan for the academy, focusing on sustainable infrastructure and modern facilities."
     },
     {
-      title: "Pokhara Convention Center",
+      title: "DESIGN OF BUDDHA PARK",
+      type: "landscape",
+      year: "2018",
+      image: "/images/n2.jpg",
+      description: "Design of buddha park in Chandragiri, Kathmandu. This project included the architectural and landscape design of a public park dedicated to Buddha, incorporating elements of traditional Nepali architecture and modern landscaping."
+    },
+    {
+      title: "DPR ON MIRA RAI STADIUM",
+      type: "Infrastructure",
+      year: "2019",
+      image: "/images/n3.jpg",
+      description: " Detailed Project Report (DPR) for Mira Rai Stadium in Bhojpur. This project involved the preparation of a comprehensive report detailing the design, construction, and operational aspects of a new sports stadium."
+    },
+    {
+      title: "DPR ON ARUN DANDA PARK",
+      type: "Infrastructure",
+      year: "2019",
+      image: "/images/n4.jpg",
+      description: " Detailed Project Report (DPR) for Arun Danda Park in Bhojpur. This project focused on the development of a public park, including landscaping, recreational facilities, and community spaces."
+    },
+    {
+      title: "Rising sun agro industries",
+      type: "infrastructure",
+      year: "2021",
+      image: "/images/n5.jpg",
+      description: "Rising Sun Agro Industries in Rupandehi, Nepal. This project involved the construction of a modern agro-industrial facility, including processing units and storage facilities for agricultural products."
+    },
+    {
+      title: "OFFICE INTERIORS of hilife office",
       type: "Commercial",
-      year: "2023",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=400&fit=crop",
-      description: "State-of-the-art convention center with modern architecture"
-    },
-    {
-      title: "Chitwan Bridge Construction",
-      type: "Infrastructure",
-      year: "2022",
-      image: "https://images.unsplash.com/photo-1527576539890-dfa815648363?w=600&h=400&fit=crop",
-      description: "Critical bridge infrastructure connecting rural communities"
-    },
-    {
-      title: "Biratnagar Industrial Complex",
-      type: "Industrial",
-      year: "2022",
-      image: "https://images.unsplash.com/photo-1460574283810-2aab119d8511?w=600&h=400&fit=crop",
-      description: "Modern industrial facility for manufacturing operations"
-    },
-    {
-      title: "Bhaktapur Heritage Restoration",
-      type: "Heritage",
       year: "2021",
-      image: "https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?w=600&h=400&fit=crop",
-      description: "Careful restoration maintaining architectural authenticity"
-    },
-    {
-      title: "Dharan Hospital Complex",
-      type: "Healthcare",
-      year: "2021",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=400&fit=crop",
-      description: "Modern healthcare facility with advanced medical infrastructure"
+      image: "/images/n6.jpg",
+      description: "Office interiors of Hilife Office in Kathmandu. This project included the design and execution of modern office interiors, focusing on functionality, aesthetics, and employee comfort."
     }
   ];
 
   const testimonials = [
     {
       name: "Ram Shrestha",
-      company: "Municipality of Kathmandu",
+      company: "Our valuable client",
       quote: "PI Group Nepal delivered exceptional results on our infrastructure project. Their professionalism and expertise exceeded our expectations.",
       rating: 5
     },
     {
       name: "Sita Poudel",
-      company: "Nepal Development Bank",
+      company: " Happy customer",
       quote: "Working with PI Group was a seamless experience. They completed our commercial project on time and within budget.",
       rating: 5
     },
     {
       name: "Krishna Maharjan",
-      company: "Private Developer",
+      company: "Satisfied customer",
       quote: "The team's attention to detail and commitment to quality made our construction project a great success.",
       rating: 5
     }

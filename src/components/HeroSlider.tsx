@@ -13,6 +13,17 @@ const HeroSlider = () => {
       title: "Building the Future of Nepal",
       subtitle: "Expertise in Infrastructure, Planning & Design"
     },
+    {
+      image: "/images/Picture2.jpg",
+      title: "Engineering Tomorrow's Infrastructure",
+      subtitle: "Delivering Excellence in Every Project"
+    },
+    {
+      image: "/images/Picture3.jpg",  
+      title: "Quality Construction, Trusted Results",
+      subtitle: "Award-Winning Projects Across Nepal"
+    }
+
     
   ];
 

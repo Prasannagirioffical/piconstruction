@@ -12,9 +12,9 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-4 mb-6">
               <img 
-                src="/lovable-uploads/ae01da55-31b7-4c64-be42-bd61328fbc78.png" 
+                src="/images/ae01da55-31b7-4c64-be42-bd61328fbc78.png" 
                 alt="PI Group Nepal" 
-                className="h-12 w-auto filter brightness-0 invert"
+                className="h-12 "
               />
               <div>
                 <div className="font-bold text-2xl">PI Group Nepal</div>
@@ -29,15 +29,13 @@ const Footer = () => {
             
             {/* Social Media */}
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors transform hover:scale-110">
+              <a href="https://www.facebook.com/piconsultsnepal/" className="text-gray-400 hover:text-blue-400 transition-colors transform hover:scale-110">
                 <Facebook className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors transform hover:scale-110">
+              <a href="https://www.linkedin.com/company/pi-group-nepal/" className="text-gray-400 hover:text-blue-400 transition-colors transform hover:scale-110">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-pink-400 transition-colors transform hover:scale-110">
-                <Instagram className="w-6 h-6" />
-              </a>
+              
             </div>
           </div>
 

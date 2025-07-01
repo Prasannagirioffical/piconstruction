@@ -7,47 +7,13 @@ import { Linkedin, Mail } from 'lucide-react';
 const Team = () => {
   const teamMembers = [
     {
-      name: "Rajesh Shrestha",
+      name: "Bipul Koirala",
       title: "Managing Director & CEO",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
-      bio: "With over 20 years of experience in construction and infrastructure development, Rajesh leads PI Group Nepal with vision and expertise.",
-      email: "rajesh@pigroupnepal.com"
+      image: "/images/ceo.jpeg",
+      bio: "With over 10 years of experience in construction and infrastructure development, Koirala leads PI Group Nepal with vision and expertise.",
+      email: "pigroupnepal@gmail.com"
     },
-    {
-      name: "Sita Karki",
-      title: "Chief Engineer",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b1e9?w=300&h=300&fit=crop&crop=face",
-      bio: "A structural engineering expert with 15+ years of experience in complex infrastructure projects across Nepal.",
-      email: "sita@pigroupnepal.com"
-    },
-    {
-      name: "Amit Thapa",
-      title: "Project Manager",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
-      bio: "Specializes in large-scale construction management and has successfully delivered numerous high-profile projects.",
-      email: "amit@pigroupnepal.com"
-    },
-    {
-      name: "Priya Sharma",
-      title: "Design Director",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
-      bio: "Award-winning architect and urban planner with expertise in sustainable and innovative design solutions.",
-      email: "priya@pigroupnepal.com"
-    },
-    {
-      name: "Bikash Tamang",
-      title: "Operations Manager",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
-      bio: "Ensures smooth operations and quality control across all PI Group Nepal projects and construction sites.",
-      email: "bikash@pigroupnepal.com"
-    },
-    {
-      name: "Sunita Rai",
-      title: "Financial Controller",
-      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=300&h=300&fit=crop&crop=face",
-      bio: "Expert in construction finance and cost management, ensuring projects are delivered within budget.",
-      email: "sunita@pigroupnepal.com"
-    }
+    
   ];
 
   return (
@@ -88,7 +54,7 @@ const Team = () => {
                         <Mail className="w-5 h-5" />
                       </a>
                       <a 
-                        href="#"
+                        href="https://www.linkedin.com/in/bipul-koirala-4b63b2151/"
                         className="bg-white/20 backdrop-blur-sm text-white p-2 rounded-full hover:bg-white/30 transition-colors"
                       >
                         <Linkedin className="w-5 h-5" />
@@ -108,7 +74,7 @@ const Team = () => {
         </div>
       </section>
 
-      {/* Leadership Quote */}
+      Leadership Quote
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
@@ -118,7 +84,7 @@ const Team = () => {
               positive impact on communities across the nation."
             </blockquote>
             <cite className="text-lg text-blue-600 font-semibold">
-              — Rajesh Shrestha, Managing Director & CEO
+              —Bipul Koirala, Managing Director & CEO
             </cite>
           </div>
         </div>

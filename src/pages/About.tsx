@@ -2,7 +2,7 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { Award, Users, Clock, Target } from 'lucide-react';
+import { Award, Users, Clock, Target, Backpack, FileCheckIcon } from 'lucide-react';
 
 const About = () => {
   return (
@@ -15,8 +15,8 @@ const About = () => {
           <div className="text-center text-white">
             <h1 className="text-5xl font-bold mb-6">About PI Group Nepal</h1>
             <p className="text-xl opacity-90 max-w-3xl mx-auto">
-              A legacy of excellence in construction and infrastructure consulting, 
-              building Nepal's future with innovation and integrity.
+              Pi Consults as a professional organization is committed to providing consultancy services.
+
             </p>
           </div>
         </div>
@@ -29,25 +29,21 @@ const About = () => {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Founded with a vision to transform Nepal's infrastructure landscape, PI Group Nepal 
-                has grown from a small consulting firm to one of the country's most trusted 
-                construction and infrastructure development companies.
+                PI Group Nepal, registered under the Government of Nepal in 2021, specializes in Detailed Project Reports (DPR) for engineering projects and comprehensive building construction services. 
+
+
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Our journey began with a simple belief: that quality construction and innovative 
-                engineering could drive Nepal's economic growth and improve lives. Over the years, 
-                we have successfully completed numerous landmark projects across the country.
+                Located centrally in Baneshwor, Kathmandu, on its own property, we boast a spacious working space of over 2500 sqft. Our team comprises seasoned professionals in civil, electrical, and computer engineering, as well as urban planning, architecture, and climate change consulting.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Today, we stand as a testament to Nepali engineering excellence, combining 
-                traditional craftsmanship with modern technology to deliver projects that 
-                stand the test of time.
+                committed to sustainable infrastructure, we deliver innovative and high-quality solutions for individuals, private entities, and public organizations. At PI Group Nepal, we shape a better future through excellence, integrity, and client-centric approaches.
               </p>
             </div>
             
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1460574283810-2aab119d8511?w=600&h=400&fit=crop"
+                src="/images/ae01da55-31b7-4c64-be42-bd61328fbc78.png"
                 alt="PI Group office building"
                 className="rounded-lg shadow-xl"
               />
@@ -69,7 +65,7 @@ const About = () => {
               <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Target className="w-8 h-8 text-white" />
               </div>
-              <div className="text-4xl font-bold text-blue-600 mb-2">50+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">40+</div>
               <div className="text-gray-600">Projects Completed</div>
             </div>
             
@@ -77,7 +73,7 @@ const About = () => {
               <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="w-8 h-8 text-white" />
               </div>
-              <div className="text-4xl font-bold text-blue-600 mb-2">15+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">7+</div>
               <div className="text-gray-600">Years Experience</div>
             </div>
             
@@ -85,16 +81,16 @@ const About = () => {
               <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <div className="text-4xl font-bold text-blue-600 mb-2">100+</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">15+</div>
               <div className="text-gray-600">Team Members</div>
             </div>
             
             <div className="text-center">
               <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-white" />
+                <FileCheckIcon className="w-8 h-8 text-white" />
               </div>
-              <div className="text-4xl font-bold text-blue-600 mb-2">25+</div>
-              <div className="text-gray-600">Awards Won</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">2+</div>
+              <div className="text-gray-600">Ongoing Project</div>
             </div>
           </div>
         </div>
