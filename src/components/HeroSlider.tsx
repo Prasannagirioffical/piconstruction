@@ -9,20 +9,11 @@ const HeroSlider = () => {
 
   const slides = [
     {
-      image: "/public/images/picture1.jpg",
+      image: "public/images/picture1.jpg",
       title: "Building the Future of Nepal",
       subtitle: "Expertise in Infrastructure, Planning & Design"
     },
-    {
-      image: "../images/Picture1.jpg'",
-      title: "Engineering Tomorrow's Infrastructure",
-      subtitle: "Delivering Excellence in Every Project"
-    },
-    {
-      image: "/images/picture3.jpg",
-      title: "Quality Construction, Trusted Results",
-      subtitle: "Award-Winning Projects Across Nepal"
-    }
+    
   ];
 
   useEffect(() => {
