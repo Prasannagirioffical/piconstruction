@@ -9,17 +9,17 @@ const HeroSlider = () => {
 
   const slides = [
     {
-      image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=1920&h=800&fit=crop",
+      image: "/public/images/picture1.jpg",
       title: "Building the Future of Nepal",
       subtitle: "Expertise in Infrastructure, Planning & Design"
     },
     {
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1920&h=800&fit=crop",
+      image: "/public/images/picture2.jpg",
       title: "Engineering Tomorrow's Infrastructure",
       subtitle: "Delivering Excellence in Every Project"
     },
     {
-      image: "https://images.unsplash.com/photo-1527576539890-dfa815648363?w=1920&h=800&fit=crop",
+      image: "/public/images/picture3.jpg",
       title: "Quality Construction, Trusted Results",
       subtitle: "Award-Winning Projects Across Nepal"
     }

@@ -36,7 +36,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-4">
             <img 
-              src="/lovable-uploads/ae01da55-31b7-4c64-be42-bd61328fbc78.png" 
+              src="/images/ae01da55-31b7-4c64-be42-bd61328fbc78.png" 
               alt="PI Group Nepal" 
               className="h-12 w-auto"
             />
