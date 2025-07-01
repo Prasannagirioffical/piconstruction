@@ -14,12 +14,12 @@ const HeroSlider = () => {
       subtitle: "Expertise in Infrastructure, Planning & Design"
     },
     {
-      image: "/public/images/picture2.jpg",
+      image: "../images/Picture1.jpg'",
       title: "Engineering Tomorrow's Infrastructure",
       subtitle: "Delivering Excellence in Every Project"
     },
     {
-      image: "/public/images/picture3.jpg",
+      image: "/images/picture3.jpg",
       title: "Quality Construction, Trusted Results",
       subtitle: "Award-Winning Projects Across Nepal"
     }
