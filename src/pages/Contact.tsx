@@ -227,13 +227,13 @@ const Contact = () => {
                 <h3 className="font-semibold text-gray-900 mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
                   <a 
-                    href="#" 
+                    href="https://www.facebook.com/piconsultsnepal/" 
                     className="bg-blue-600 p-3 rounded-lg text-white hover:bg-blue-700 transition-colors"
                   >
                     <Facebook className="w-6 h-6" />
                   </a>
                   <a 
-                    href="#" 
+                    href="https://www.linkedin.com/company/pi-group-nepal/" 
                     className="bg-blue-600 p-3 rounded-lg text-white hover:bg-blue-700 transition-colors"
                   >
                     <Linkedin className="w-6 h-6" />
@@ -245,23 +245,32 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
+      
+        <section className="py-20 bg-gray-50">
+
+      <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Find Our Office</h2>
             <p className="text-lg text-gray-600">Visit us at our Kathmandu office for consultation</p>
           </div>
-          
-          <div className="bg-gray-300 h-96 rounded-lg flex items-center justify-center">
-            <div className="text-center text-gray-600">
-              <MapPin className="w-12 h-12 mx-auto mb-4" />
-              <p className="text-lg">Interactive Map</p>
-              <p className="text-sm">Google Maps integration would be placed here</p>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className="rounded-lg overflow-hidden w-full h-96">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.6939873845404!2d85.3296076!3d27.726733099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19122f567b5f%3A0x4ace4ef0ad4ca45e!2sPi%20Consults%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1751397242560!5m2!1sen!2snp"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    title="Pi Consults Pvt. Ltd. Location"
+  ></iframe>
+</div>
+</section>
+
+
+
+
+
+
       
       <Footer />
     </div>

@@ -46,7 +46,7 @@ const Index = () => {
       description: "Rising Sun Agro Industries in Rupandehi, Nepal. This project involved the construction of a modern agro-industrial facility, including processing units and storage facilities for agricultural products."
     },
     {
-      title: "OFFICE INTERIORS of hilife office",
+      title: "OFFICE INTERIORS of Hilife office",
       type: "Commercial",
       year: "2021",
       image: "/images/n6.jpg",
@@ -156,7 +156,7 @@ const Index = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-blue-600/90 to-blue-600/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="absolute bottom-4 left-4 right-4">
                       <p className="text-white text-sm mb-2">{project.description}</p>
-                      <Button variant="outline" size="sm" className="text-white border-white hover:bg-blue-600 hover:text-white hover:border-blue-600">
+                      <Button variant="outline" size="sm" className="text-orange border-white hover:bg-blue-600 hover:text-white hover:border-blue-600">
                         View Details
                       </Button>
                     </div>

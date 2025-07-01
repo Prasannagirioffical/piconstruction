@@ -7,54 +7,93 @@ import { Button } from '@/components/ui/button';
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Kathmandu Ring Road Expansion",
-      description: "Major infrastructure project to expand and modernize the ring road system around Kathmandu valley.",
-      image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600&h=400&fit=crop",
-      location: "Kathmandu Valley",
-      year: "2023",
+     {
+      title: "REPORT OF TPREPARATION OF DETAILED ENGINEERING RIVENI FOREST BUILDING",
+      description: "Preparation of Detailed Engineering Report for Riveni Forest Building in Sindhuli, Nepal. This project involved the design and planning of a sustainable forest building, focusing on eco-friendly materials and construction techniques.",
+      image: "/images/Picture3.jpg",
+      location: "Katari, Udayapur",
+      year: "2019",
       category: "Infrastructure"
     },
+   
+
+
     {
-      title: "Pokhara International Convention Center",
-      description: "State-of-the-art convention center featuring modern architecture and sustainable design principles.",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=400&fit=crop",
-      location: "Pokhara",
-      year: "2023",
-      category: "Commercial"
+      title: "CONCEPTUAL MASTER PLAN OF NAST",
+      category: "Infrastructure",
+      location: "Lalitpur, Nepal",
+      year: "2019",
+      image: "/images/n1.jpg",
+      description: "NAST (National Academy of Science and Technology) in Lalitpur, Nepal. This project involved the development of a comprehensive master plan for the academy, focusing on sustainable infrastructure and modern facilities."
     },
     {
-      title: "Chitwan Bridge Construction",
-      description: "Critical bridge infrastructure connecting rural communities to main transportation networks.",
-      image: "https://images.unsplash.com/photo-1527576539890-dfa815648363?w=600&h=400&fit=crop",
-      location: "Chitwan",
-      year: "2022",
+      title: "DESIGN OF BUDDHA PARK",
+      location: "Chandragiri, Kathmandu",
+      category: "Heritage",
+      year: "2018",
+      image: "/images/n2.jpg",
+      description: "Design of buddha park in Chandragiri, Kathmandu. This project included the architectural and landscape design of a public park dedicated to Buddha, incorporating elements of traditional Nepali architecture and modern landscaping."
+    },
+    {
+      title: "DPR ON MIRA RAI STADIUM",
+      location: "Bhojpur, Nepal",
+      category: "Infrastructure",
+      year: "2019",
+      image: "/images/n3.jpg",
+      description: " Detailed Project Report (DPR) for Mira Rai Stadium in Bhojpur. This project involved the preparation of a comprehensive report detailing the design, construction, and operational aspects of a new sports stadium."
+    },
+    {
+      title: "DPR ON ARUN DANDA PARK",
+      location: "Bhojpur, Nepal",
+      category: "Heritage",
+      year: "2019",
+      image: "/images/n4.jpg",
+      description: " Detailed Project Report (DPR) for Arun Danda Park in Bhojpur. This project focused on the development of a public park, including landscaping, recreational facilities, and community spaces."
+    },
+    {
+      title: "Rising sun agro industries",
+      location: "Rupandehi, Nepal",
+      category: "Industrial",
+      year: "2021",
+      image: "/images/n5.jpg",
+      description: "Rising Sun Agro Industries in Rupandehi, Nepal. This project involved the construction of a modern agro-industrial facility, including processing units and storage facilities for agricultural products."
+    },
+    {
+      title: "OFFICE INTERIORS of Hilife office",
+      location: "Kathmandu, Nepal",
+      category: "Commercial",
+      year: "2021",
+      image: "/images/n6.jpg",
+      description: "Office interiors of Hilife Office in Kathmandu. This project included the design and execution of modern office interiors, focusing on functionality, aesthetics, and employee comfort."
+    },
+
+      {
+      title: " DPR ON TOURISM AREA DEVELOPMENT: CHYANGRE",
+      description: "Detailed Project Report (DPR) on Tourism Area Development in Chyangre, Nepal. This project involved the planning and design of a tourism development area, including infrastructure, amenities, and sustainable tourism practices.",
+      image: "/images/n7.jpg",
+      location: " Pauwadungma, Bhojpur",
+      year: "2019",
       category: "Infrastructure"
     },
+
     {
-      title: "Biratnagar Industrial Complex",
-      description: "Modern industrial facility designed for manufacturing and logistics operations.",
-      image: "https://images.unsplash.com/photo-1460574283810-2aab119d8511?w=600&h=400&fit=crop",
-      location: "Biratnagar",
-      year: "2022",
-      category: "Industrial"
-    },
-    {
-      title: "Bhaktapur Heritage Restoration",
-      description: "Careful restoration of historic structures while maintaining architectural authenticity.",
-      image: "https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?w=600&h=400&fit=crop",
-      location: "Bhaktapur",
-      year: "2021",
-      category: "Heritage"
-    },
-    {
-      title: "Dharan Hospital Complex",
-      description: "Modern healthcare facility with advanced medical infrastructure and patient-centered design.",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=400&fit=crop",
-      location: "Dharan",
-      year: "2021",
+      title: "DPR AND IEE OF PRIMARY LEVEL HOSPITAL AT BHULMUTAR, KAVREPALANCHOWK",
+      description: "Detailed Project Report (DPR) and Initial Environmental Examination (IEE) for a Primary Level Hospital in Bhulmutar, Kavrepalanchowk. This project focused on the design and environmental assessment of a healthcare facility to improve local healthcare services.",
+      image: "/images/n8.jpg",
+      location: " Bhulmutar, Kavrepalanchowk",
+      year: "2020",
       category: "Healthcare"
-    }
+    },
+    
+    
+
+
+
+
+    
+    
+
+
   ];
 
   const categories = ["All", "Infrastructure", "Commercial", "Industrial", "Heritage", "Healthcare"];

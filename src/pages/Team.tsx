@@ -9,7 +9,7 @@ const Team = () => {
     {
       name: "Bipul Koirala",
       title: "Managing Director & CEO",
-      image: "/images/ceo.jpeg",
+      image: "/images/ceo.png",
       bio: "With over 10 years of experience in construction and infrastructure development, Koirala leads PI Group Nepal with vision and expertise.",
       email: "pigroupnepal@gmail.com"
     },
